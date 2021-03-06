@@ -1,7 +1,6 @@
 data = R0x2000;
 text = LOAD ?RXO;
 # Test Null
-text: .text%init64IO: OUTPUTDIR/UnixFileSystem_md.o;
 text: .text%JNI_OnLoad;
 text: .text%Canonicalize;
 text: .text%canonicalize;
